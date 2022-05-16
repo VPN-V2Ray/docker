@@ -1,6 +1,6 @@
   
 DOCKER ?= docker
-TARGET ?= cnsoluciones/novnc-winbox
+TARGET ?= nanopi/novnc-winbox
 
 all:
 	@echo "Building ${TARGET}"
