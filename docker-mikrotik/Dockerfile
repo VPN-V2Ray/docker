@@ -68,3 +68,4 @@ COPY index.html /opt/noVNC
 COPY vnc.html /opt/noVNC
 
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+
