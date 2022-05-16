@@ -1,6 +1,6 @@
   
 DOCKER ?= docker
-TARGET ?= cnsoluciones/mikrotik
+TARGET ?= nanopi/mikrotik
 IMAGE ?= `ls *.vdi`
 VERSON ?= $(shell echo $(IMAGE) | sed -n 's/.*\([0-9]\.[0-9][0-99]\.[0-9]\).*/\1/p')
 
