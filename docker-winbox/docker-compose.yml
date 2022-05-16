@@ -1,9 +1,9 @@
-version: "3.3"
+version: "3.35"
 
 services:
 
   winbox:
-    image: cnsoluciones/novnc-winbox:latest
+    image: nanopi/novnc-winbox:latest
     container_name: winbox
     restart: always
     #volumes:
