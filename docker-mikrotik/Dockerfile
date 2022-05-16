@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER Federico Pereira <fpereira@cnsoluciones.com>
+MAINTAINER Tony <tony-cn@outlook.com>
 
 ARG VERSON
 ENV ROUTEROS_VERSON=$VERSON
